@@ -6,6 +6,6 @@ namespace Architecture.BusinessLayer.Interfaces
 {
     public interface IBeschikbaarheidService
     {
-        void ZetBeschikbaarheid(DateTime start, DateTime eind);
+        void ZetBeschikbaarheid(DateTime start, DateTime eind, String omschrijving = null);
     }
 }

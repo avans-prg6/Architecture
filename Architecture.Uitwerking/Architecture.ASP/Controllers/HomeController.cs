@@ -46,7 +46,13 @@ namespace Architecture.ASP.Controllers
             }
             else
             {
-                if(form.IsRepeat && !form.AantalKeer.HasValue)
+                if(form.Start.Date != form.Einde.Date)
+                {
+                    //Dit is eignelijk een business rule... in de toekomst moeten we kijken of we deze niet kunnen verplaatsen naar de busines layer
+                    ModelState.AddModelError("Einde", "Beschikbaarheid moet op dezelfde dag vallen");
+                }
+
+                if (form.IsRepeat && !form.AantalKeer.HasValue)
                 {
                     ModelState.AddModelError("AantalKeer", "AantalKeer moet ingevuld worden als IsRepeat aangevinkt is");
                 }
@@ -61,14 +67,16 @@ namespace Architecture.ASP.Controllers
 
             if (form.IsHoliday)
             {
-                _vakantie.PlanVakantie(form.Start.Value, form.Einde.Value, form.Omschrijving);
+                _vakantie.PlanVakantie(form.Start, form.Einde, form.Omschrijving);
             }
             else
             {
+                form.AantalKeer = form.AantalKeer.HasValue ? form.AantalKeer : 1;
+
                 //Dit hadden we ook in de service kunnen doen
                 for (int i = 0; i < form.AantalKeer; i++)
                 {
-                    _beschikbaarheid.ZetBeschikbaarheid(form.Start.Value.AddDays(i * 7), form.Einde.Value.AddDays(i * 7));
+                    _beschikbaarheid.ZetBeschikbaarheid(form.Start.AddDays(i * 7), form.Einde.AddDays(i * 7));
                 }
             }
 

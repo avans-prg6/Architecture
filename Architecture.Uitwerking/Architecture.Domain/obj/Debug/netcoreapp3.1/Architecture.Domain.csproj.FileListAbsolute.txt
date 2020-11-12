@@ -4,6 +4,9 @@ C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\ob
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.AssemblyInfoInputs.cache
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.AssemblyInfo.cs
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\bin\Debug\netcoreapp3.1\Architecture.Domain.pdb
-C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.csproj.CoreCompileInputs.cache
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.dll
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.pdb
+C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\bin\Debug\netcoreapp3.1\Architecture.Domain.runtimeconfig.json
+C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\bin\Debug\netcoreapp3.1\Architecture.Domain.runtimeconfig.dev.json
+C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.genruntimeconfig.cache
+C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.Domain\obj\Debug\netcoreapp3.1\Architecture.Domain.csproj.CoreCompileInputs.cache
