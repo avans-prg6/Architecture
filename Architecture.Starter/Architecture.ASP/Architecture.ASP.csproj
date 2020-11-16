@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Architecture.BusinessLayer\Architecture.BusinessLayer.csproj" />
+    <ProjectReference Include="..\Architecture.Domain\Architecture.Domain.csproj" />
   </ItemGroup>
 
 </Project>

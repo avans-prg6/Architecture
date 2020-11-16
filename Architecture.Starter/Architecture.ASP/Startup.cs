@@ -28,6 +28,8 @@ namespace Architecture.ASP
         public void ConfigureServices(IServiceCollection services)
         {
             //Hier moet de DB context geregristeerd worden
+            services.AddDbContext<MyContext>(options =>
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
 
             services.AddControllersWithViews()
                 .AddRazorRuntimeCompilation(); //Toegevoegd via het nuger package Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation 

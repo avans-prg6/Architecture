@@ -10,3 +10,17 @@ C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.BusinessL
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.Domain.pdb
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.csprojAssemblyReference.cache
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.csproj.CopyComplete
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.BusinessLayer.deps.json
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.BusinessLayer.dll
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.BusinessLayer.pdb
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.Domain.dll
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\Architecture.Domain.pdb
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.csprojAssemblyReference.cache
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.AssemblyInfoInputs.cache
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.AssemblyInfo.cs
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.csproj.CopyComplete
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.dll
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\obj\Debug\netcoreapp3.1\Architecture.BusinessLayer.pdb
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Github\avans-prg6\Architecture\Architecture.Starter\Architecture.BusinessLayer\bin\Debug\netcoreapp3.1\appsettings.json

@@ -30,6 +30,9 @@
             "projectReferences": {
               "C:\\Github\\avans-prg6\\Architecture\\Architecture.Starter\\Architecture.BusinessLayer\\Architecture.BusinessLayer.csproj": {
                 "projectPath": "C:\\Github\\avans-prg6\\Architecture\\Architecture.Starter\\Architecture.BusinessLayer\\Architecture.BusinessLayer.csproj"
+              },
+              "C:\\Github\\avans-prg6\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj": {
+                "projectPath": "C:\\Github\\avans-prg6\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj"
               }
             }
           }
