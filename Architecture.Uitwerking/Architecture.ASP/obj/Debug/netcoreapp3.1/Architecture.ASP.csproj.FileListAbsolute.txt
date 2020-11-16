@@ -1,6 +1,5 @@
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\Architecture.ASP.exe
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\Architecture.ASP.deps.json
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\Debug\netcoreapp3.1\Architecture.ASP.runtimeconfig.json
@@ -382,3 +381,4 @@ C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\bin\D
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\obj\Debug\netcoreapp3.1\Architecture.ASP.csproj.CoreCompileInputs.cache
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\obj\Debug\netcoreapp3.1\Architecture.ASP.MvcApplicationPartsAssemblyInfo.cs
 C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\obj\Debug\netcoreapp3.1\Architecture.ASP.MvcApplicationPartsAssemblyInfo.cache
+C:\Github\avans-prg6\Architecture\Architecture.Uitwerking\Architecture.ASP\obj\Debug\netcoreapp3.1\scopedcss\bundle\Architecture.ASP.styles.css

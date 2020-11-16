@@ -6237,6 +6237,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {
             "C:\\Github\\avans-prg6\\Architecture\\Architecture.Uitwerking\\Architecture.BusinessLayer\\Architecture.BusinessLayer.csproj": {
               "projectPath": "C:\\Github\\avans-prg6\\Architecture\\Architecture.Uitwerking\\Architecture.BusinessLayer\\Architecture.BusinessLayer.csproj"
@@ -6252,6 +6253,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "dependencies": {
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
             "target": "Package",
@@ -6290,7 +6292,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
