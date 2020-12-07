@@ -11,7 +11,7 @@ namespace Architecture.Domain
         {
         }
 
-        public MyDbSet<Beschikbaarheid> Beschikbaarheid { get; set; }
+        public DbSet<Beschikbaarheid> Beschikbaarheid { get; set; }
 
         public DbSet<Vakantie> VakantieDagen{ get; set; }
 
