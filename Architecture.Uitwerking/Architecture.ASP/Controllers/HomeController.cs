@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Architecture.ASP.Models;
 using Architecture.BusinessLayer;
 using Architecture.BusinessLayer.Interfaces;
+using Architecture.Domain;
 
 namespace Architecture.ASP.Controllers
 {
@@ -15,16 +16,19 @@ namespace Architecture.ASP.Controllers
     {
         private IBeschikbaarheidService _beschikbaarheid;
         private IVakantieService _vakantie;
+        private MyContext _context;
 
-
-        public HomeController(IBeschikbaarheidService beschikbaarheid, IVakantieService vakantie)
+        public HomeController(IBeschikbaarheidService beschikbaarheid, IVakantieService vakantie, MyContext context)
         {
             _beschikbaarheid = beschikbaarheid;
             _vakantie = vakantie;
+            _context = context;
         }
 
         public IActionResult Index()
         {
+            var items = _context.VakantieDagen.ToList();
+            ViewBag.items = items;
             return View(new FormViewModel());
         }
 
@@ -84,5 +88,6 @@ namespace Architecture.ASP.Controllers
 
             return View("Response", form);
         }
+
     }
 }

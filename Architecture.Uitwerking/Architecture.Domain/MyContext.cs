@@ -9,10 +9,9 @@ namespace Architecture.Domain
     {
         public MyContext(DbContextOptions<MyContext> options) : base(options)
         {
-
         }
 
-        public DbSet<Beschikbaarheid> Beschikbaarheid { get; set; }
+        public MyDbSet<Beschikbaarheid> Beschikbaarheid { get; set; }
 
         public DbSet<Vakantie> VakantieDagen{ get; set; }
 
