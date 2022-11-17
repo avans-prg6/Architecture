@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Architecture.Domain
 {
-    public class MyDbSet : Microsoft.EntityFrameworkCore.DbSet<Beschikbaarheid>
-    {
-    }
+    //public class MyDbSet : Microsoft.EntityFrameworkCore.DbSet<Beschikbaarheid>
+    //{
+    //}
 }

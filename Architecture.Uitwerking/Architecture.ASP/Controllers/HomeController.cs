@@ -65,6 +65,8 @@ namespace Architecture.ASP.Controllers
             //dit doen we natuurlijk pas na het toevoegen van deze custom errors
             if (!ModelState.IsValid)
             {
+                var items = _context.VakantieDagen.ToList();
+                ViewBag.items = items; // Lets make it possible to display the errors.
                 // The user didn't select any value => redisplay the form
                 return View("Index", form);
             }
