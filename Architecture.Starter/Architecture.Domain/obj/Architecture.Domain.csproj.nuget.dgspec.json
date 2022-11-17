@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\eceyhan\\Source\\Repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj": {}
+    "C:\\Users\\eceyhan\\source\\repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\eceyhan\\Source\\Repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj": {
+    "C:\\Users\\eceyhan\\source\\repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\eceyhan\\Source\\Repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\eceyhan\\source\\repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj",
         "projectName": "Architecture.Domain",
-        "projectPath": "C:\\Users\\eceyhan\\Source\\Repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj",
+        "projectPath": "C:\\Users\\eceyhan\\source\\repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\Architecture.Domain.csproj",
         "packagesPath": "C:\\Users\\eceyhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\eceyhan\\Source\\Repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\obj\\",
+        "outputPath": "C:\\Users\\eceyhan\\source\\repos\\Architecture\\Architecture.Starter\\Architecture.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eceyhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -42,21 +42,21 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.11, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[3.1.10, )"
+              "version": "[6.0.11, )"
             }
           },
           "imports": [
