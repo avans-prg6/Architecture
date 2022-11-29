@@ -15,8 +15,8 @@ namespace Architecture.BusinessLayer
         public Vakantie PlanVakantie(DateTime start, DateTime einde, string omschrijving)
         {
             //zoek naar vakantie met overlap
-            var overlap = _context.VakantieDagen.Where(v => (start.Date <= v.Einde.Date && start.Date >= v.Einde.Date)
-                || (einde.Date <= v.Einde.Date && einde.Date >= v.Einde.Date)).FirstOrDefault();
+            var overlap = _context.VakantieDagen.Where(v => (start.Date <= v.Einde.Date && start.Date >= v.Start.Date)
+                || (einde.Date <= v.Einde.Date && einde.Date >= v.Start.Date)).FirstOrDefault();
 
             if (overlap != null)
                 return null;
