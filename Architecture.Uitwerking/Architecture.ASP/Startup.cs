@@ -38,6 +38,10 @@ namespace Architecture.ASP
             services.AddScoped<IBeschikbaarheidService, BeschikbaarheidService>();
             services.AddScoped<IVakantieService, VakantiedagenService>();
 
+            //services.AddScoped<IVakantieRepository, VakantieRepositoryDatabase>();
+  
+            services.AddSingleton<IVakantieRepository, VakantieRepositoryDummy>();
+
         }
 
         // This method gets called by the runtime.

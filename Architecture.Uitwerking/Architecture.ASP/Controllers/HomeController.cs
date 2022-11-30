@@ -9,6 +9,7 @@ using Architecture.ASP.Models;
 using Architecture.BusinessLayer;
 using Architecture.BusinessLayer.Interfaces;
 using Architecture.Domain;
+using Microsoft.EntityFrameworkCore;
 
 namespace Architecture.ASP.Controllers
 {
@@ -16,18 +17,23 @@ namespace Architecture.ASP.Controllers
     {
         private IBeschikbaarheidService _beschikbaarheid;
         private IVakantieService _vakantie;
-        private MyContext _context;
+        //private MyContext _context;
+        private IVakantieRepository _repo;
 
-        public HomeController(IBeschikbaarheidService beschikbaarheid, IVakantieService vakantie, MyContext context)
+
+        public HomeController(IBeschikbaarheidService beschikbaarheid, IVakantieService vakantie, IVakantieRepository repo)
+       //public HomeController(IBeschikbaarheidService beschikbaarheid, IVakantieService vakantie, MyContext context)
         {
             _beschikbaarheid = beschikbaarheid;
             _vakantie = vakantie;
-            _context = context;
+            //_context = context;
+            _repo = repo;
         }
 
         public IActionResult Index()
         {
-            var items = _context.VakantieDagen.ToList();
+            //var items = _context.VakantieDagen.ToList();
+            var items = _repo.GetAll();
             ViewBag.items = items;
             return View(new FormViewModel());
         }
@@ -65,7 +71,7 @@ namespace Architecture.ASP.Controllers
             //dit doen we natuurlijk pas na het toevoegen van deze custom errors
             if (!ModelState.IsValid)
             {
-                var items = _context.VakantieDagen.ToList();
+                var items = _repo.GetAll();
                 ViewBag.items = items; // Lets make it possible to display the errors.
                 // The user didn't select any value => redisplay the form
                 return View("Index", form);
@@ -73,7 +79,14 @@ namespace Architecture.ASP.Controllers
 
             if (form.IsHoliday)
             {
-                _vakantie.PlanVakantie(form.Start, form.Einde, form.Omschrijving);
+                //_vakantie.PlanVakantie(form.Start, form.Einde, form.Omschrijving);
+                if (_vakantie.PlanVakantie(form.Start, form.Einde, form.Omschrijving) == null)
+                {
+                    var items = _repo.GetAll();
+                    ViewBag.items = items;
+                    ModelState.AddModelError("Overlap", "Deze vakantie heeft overlap en is niet toegevoegd!");
+                    return View("Index", form);
+                }
             }
             else
             {

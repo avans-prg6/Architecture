@@ -2,7 +2,7 @@
 
 <h2>Beschikbaarheid formulier</h2>
 
-<p>Testje: We hebben nu @ViewBag.items.Count</p>
+<p style="color:skyblue; font-style:italic">Testje: We hebben nu @ViewBag.items.Count vakantie(s) in de database.</p>
 
 <p>Hier kun je beschikbaarheid en vakantiedagen aangeven.</p>
 
@@ -29,6 +29,8 @@
     <div class="form-group">
         @Html.LabelFor(m => m.Einde)
         @Html.EditorFor(m => m.Einde)
+        <span asp-validation-for="Einde" class="text-danger"></span>
+
     </div>
     <div class="form-group">
         @Html.LabelFor(m => m.IsRepeat)
@@ -42,4 +44,9 @@
 
     <input type="submit" value="Submit" class="btn btn-primary" />
 
+}
+
+@section Scripts {
+@{
+    await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

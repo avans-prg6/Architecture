@@ -15,7 +15,7 @@ namespace Architecture.ASP.Models
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy HH:mm}")]
         public DateTime Start { get; set; }
 
-        [Required]
+        [Required(ErrorMessage = "Einddatum moet ingevuld worden")]
         [DataType(DataType.DateTime)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:MM/dd/yyyy HH:mm}")]
         public DateTime Einde { get; set; }
