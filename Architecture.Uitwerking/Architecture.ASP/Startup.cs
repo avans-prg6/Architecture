@@ -14,7 +14,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.EntityFrameworkCore;
 
 namespace Architecture.ASP
-{ 
+{  
     public class Startup
     {
         public Startup(IConfiguration configuration)
