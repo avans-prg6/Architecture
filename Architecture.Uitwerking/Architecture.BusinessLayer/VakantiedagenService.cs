@@ -21,7 +21,7 @@ namespace Architecture.BusinessLayer
             //zoek naar vakantie met overlap
             var overlap = _repo.GetAll().Where(v => (start.Date <= v.Einde.Date && start.Date >= v.Start.Date)
                || (einde.Date <= v.Einde.Date && einde.Date >= v.Start.Date)).FirstOrDefault();
-            //var overlap = _repo.VakantieDagen.Where(v => (start.Date <= v.Einde.Date && start.Date >= v.Start.Date)
+            //var overlap = _context.VakantieDagen.Where(v => (start.Date <= v.Einde.Date && start.Date >= v.Start.Date)
             //    || (einde.Date <= v.Einde.Date && einde.Date >= v.Start.Date)).FirstOrDefault();
 
             if (overlap != null)
